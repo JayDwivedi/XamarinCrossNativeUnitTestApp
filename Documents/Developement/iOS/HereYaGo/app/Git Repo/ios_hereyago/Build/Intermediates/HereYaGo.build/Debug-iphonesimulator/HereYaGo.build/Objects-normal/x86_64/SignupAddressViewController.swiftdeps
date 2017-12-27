@@ -1,0 +1,1868 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Kusermobile"
+- "Kuserdoorno"
+- "Kuserstreet"
+- "Kusercity"
+- "Kuserstate"
+- "Kusercountry"
+- "KuserZip"
+- "Klongitute"
+- "Klattitute"
+- "SignupAddressViewController"
+provides-nominal:
+- "C8HereYaGo27SignupAddressViewController"
+provides-member:
+- ["C8HereYaGo27SignupAddressViewController", ""]
+- ["Vs10Dictionary", ""]
+- ["Vs10Dictionary", "updateDict"]
+provides-dynamic-lookup:
+- "locationManager"
+- "locationManager"
+- "locationManager"
+- "longvalue"
+- "determineMyCurrentLocation"
+- "mobilefield"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "getdatafromaddress"
+- "prepare"
+- "countryfield"
+- "streetfield"
+- "placeMark"
+- "doornofield"
+- "SignupaddressnextAction"
+- "signupinfoDict"
+- "statefield"
+- "zipcodefield"
+- "geocoder"
+- "cityfield"
+- "latitute"
+- "viewWillAppear"
+- "SignupAddressPreviousAction"
+depends-top-level:
+- "Kusercity"
+- "UIStoryboardSegue"
+- "CLLocation"
+- "Bool"
+- !private "kCLLocationAccuracyBest"
+- !private "!="
+- !private ">"
+- "UnicodeScalarType"
+- "Dictionary"
+- "Klongitute"
+- "UIViewController"
+- "CLLocationManager"
+- "Kusercountry"
+- "Kusermobile"
+- "AssignmentPrecedence"
+- !private "=="
+- "CastingPrecedence"
+- "CLPlacemark"
+- !private "&&"
+- "String"
+- "UITextField"
+- "Kuserstreet"
+- "Kuserstate"
+- "SignupAddressViewController"
+- "StringLiteralType"
+- "CLLocationManagerDelegate"
+- "Kuserdoorno"
+- !private "SignUpViewControllerCategory"
+- "Error"
+- "Klattitute"
+- "CLGeocoder"
+- !private "print"
+- "KuserZip"
+depends-member:
+- ["Ps9AnyObject", "CLGeocoder"]
+- !private ["Ps9AnyObject", "CLLocation"]
+- !private ["Ps9AnyObject", "CLLocationManager"]
+- !private ["Ps9AnyObject", "KuserZip"]
+- !private ["Ps9AnyObject", "Kusercity"]
+- !private ["Ps9AnyObject", "Kusercountry"]
+- !private ["Ps9AnyObject", "Kuserdoorno"]
+- !private ["Ps9AnyObject", "Kusermobile"]
+- !private ["Ps9AnyObject", "Kuserstate"]
+- !private ["Ps9AnyObject", "Kuserstreet"]
+- ["Ps9AnyObject", "SignupAddressPreviousAction"]
+- ["Ps9AnyObject", "SignupaddressnextAction"]
+- !private ["Ps9AnyObject", "administrativeArea"]
+- ["Ps9AnyObject", "cityfield"]
+- !private ["Ps9AnyObject", "coordinate"]
+- !private ["Ps9AnyObject", "country"]
+- ["Ps9AnyObject", "countryfield"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "desiredAccuracy"]
+- !private ["Ps9AnyObject", "destination"]
+- ["Ps9AnyObject", "determineMyCurrentLocation"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "doornofield"]
+- !private ["Ps9AnyObject", "geocodeAddressString"]
+- ["Ps9AnyObject", "geocoder"]
+- ["Ps9AnyObject", "getdatafromaddress"]
+- !private ["Ps9AnyObject", "identifier"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kCLLocationAccuracyBest"]
+- ["Ps9AnyObject", "latitute"]
+- !private ["Ps9AnyObject", "locality"]
+- !private ["Ps9AnyObject", "location"]
+- ["Ps9AnyObject", "locationManager"]
+- ["Ps9AnyObject", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9AnyObject", "locationServicesEnabled"]
+- ["Ps9AnyObject", "longvalue"]
+- ["Ps9AnyObject", "mobilefield"]
+- !private ["Ps9AnyObject", "performSegue"]
+- ["Ps9AnyObject", "placeMark"]
+- !private ["Ps9AnyObject", "postalCode"]
+- ["Ps9AnyObject", "prepare"]
+- !private ["Ps9AnyObject", "previewDict"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "requestAlwaysAuthorization"]
+- !private ["Ps9AnyObject", "reverseGeocodeLocation"]
+- ["Ps9AnyObject", "signupinfoDict"]
+- !private ["Ps9AnyObject", "startUpdatingLocation"]
+- ["Ps9AnyObject", "statefield"]
+- ["Ps9AnyObject", "streetfield"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "thoroughfare"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", "zipcodefield"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Index"]
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "count"]
+- ["Sa", "deinit"]
+- !private ["Sa", "first"]
+- !private ["Sa", "last"]
+- !private ["Sa", "subscript"]
+- !private ["C8HereYaGo18BaseViewController", "previewDict"]
+- !private ["Ps23BidirectionalCollection", "Index"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Indices"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "SubSequence"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps23BidirectionalCollection", "last"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps22BidirectionalIndexable", "Index"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Indices"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "SubSequence"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Ps22BidirectionalIndexable", "first"]
+- !private ["Ps22BidirectionalIndexable", "last"]
+- !private ["Ps22BidirectionalIndexable", "subscript"]
+- !private ["Vs18BidirectionalSlice", "Index"]
+- !private ["Vs18BidirectionalSlice", "IndexDistance"]
+- !private ["Vs18BidirectionalSlice", "Indices"]
+- !private ["Vs18BidirectionalSlice", "Iterator"]
+- !private ["Vs18BidirectionalSlice", "SubSequence"]
+- !private ["Vs18BidirectionalSlice", "_Element"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo19CAAnimationDelegate", "previewDict"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["CSo10CLGeocoder", "deinit"]
+- !private ["CSo10CLGeocoder", "geocodeAddressString"]
+- ["CSo10CLGeocoder", "init"]
+- !private ["CSo10CLGeocoder", "reverseGeocodeLocation"]
+- !private ["CSo10CLLocation", "coordinate"]
+- ["CSo10CLLocation", "deinit"]
+- !private ["CSo10CLLocation", "init"]
+- ["VSC22CLLocationCoordinate2D", "deinit"]
+- !private ["VSC22CLLocationCoordinate2D", "latitude"]
+- !private ["VSC22CLLocationCoordinate2D", "longitude"]
+- ["CSo17CLLocationManager", "deinit"]
+- !private ["CSo17CLLocationManager", "delegate"]
+- !private ["CSo17CLLocationManager", "desiredAccuracy"]
+- !private ["CSo17CLLocationManager", "init"]
+- !private ["CSo17CLLocationManager", "locationServicesEnabled"]
+- !private ["CSo17CLLocationManager", "requestAlwaysAuthorization"]
+- !private ["CSo17CLLocationManager", "startUpdatingLocation"]
+- ["PSo25CLLocationManagerDelegate", "CLGeocoder"]
+- !private ["PSo25CLLocationManagerDelegate", "CLLocation"]
+- !private ["PSo25CLLocationManagerDelegate", "CLLocationManager"]
+- !private ["PSo25CLLocationManagerDelegate", "KuserZip"]
+- !private ["PSo25CLLocationManagerDelegate", "Kusercity"]
+- !private ["PSo25CLLocationManagerDelegate", "Kusercountry"]
+- !private ["PSo25CLLocationManagerDelegate", "Kuserdoorno"]
+- !private ["PSo25CLLocationManagerDelegate", "Kusermobile"]
+- !private ["PSo25CLLocationManagerDelegate", "Kuserstate"]
+- !private ["PSo25CLLocationManagerDelegate", "Kuserstreet"]
+- !private ["PSo25CLLocationManagerDelegate", "cityfield"]
+- !private ["PSo25CLLocationManagerDelegate", "countryfield"]
+- !private ["PSo25CLLocationManagerDelegate", "determineMyCurrentLocation"]
+- !private ["PSo25CLLocationManagerDelegate", "doornofield"]
+- !private ["PSo25CLLocationManagerDelegate", "geocoder"]
+- !private ["PSo25CLLocationManagerDelegate", "kCLLocationAccuracyBest"]
+- !private ["PSo25CLLocationManagerDelegate", "latitute"]
+- ["PSo25CLLocationManagerDelegate", "locationManager"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo25CLLocationManagerDelegate", "longvalue"]
+- !private ["PSo25CLLocationManagerDelegate", "mobilefield"]
+- !private ["PSo25CLLocationManagerDelegate", "performSegue"]
+- !private ["PSo25CLLocationManagerDelegate", "placeMark"]
+- !private ["PSo25CLLocationManagerDelegate", "print"]
+- !private ["PSo25CLLocationManagerDelegate", "signupinfoDict"]
+- !private ["PSo25CLLocationManagerDelegate", "statefield"]
+- !private ["PSo25CLLocationManagerDelegate", "streetfield"]
+- !private ["PSo25CLLocationManagerDelegate", "zipcodefield"]
+- ["PSo25CLLocationManagerDelegate", ""]
+- !private ["CSo11CLPlacemark", "administrativeArea"]
+- !private ["CSo11CLPlacemark", "country"]
+- !private ["CSo11CLPlacemark", "deinit"]
+- !private ["CSo11CLPlacemark", "locality"]
+- !private ["CSo11CLPlacemark", "location"]
+- !private ["CSo11CLPlacemark", "postalCode"]
+- !private ["CSo11CLPlacemark", "thoroughfare"]
+- ["Ps7CVarArg", "CLGeocoder"]
+- !private ["Ps7CVarArg", "CLLocation"]
+- !private ["Ps7CVarArg", "CLLocationManager"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "Iterator"]
+- ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "KuserZip"]
+- !private ["Ps7CVarArg", "Kusercity"]
+- !private ["Ps7CVarArg", "Kusercountry"]
+- !private ["Ps7CVarArg", "Kuserdoorno"]
+- !private ["Ps7CVarArg", "Kusermobile"]
+- !private ["Ps7CVarArg", "Kuserstate"]
+- !private ["Ps7CVarArg", "Kuserstreet"]
+- ["Ps7CVarArg", "SignupAddressPreviousAction"]
+- ["Ps7CVarArg", "SignupaddressnextAction"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "administrativeArea"]
+- ["Ps7CVarArg", "cityfield"]
+- !private ["Ps7CVarArg", "coordinate"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "country"]
+- ["Ps7CVarArg", "countryfield"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "desiredAccuracy"]
+- !private ["Ps7CVarArg", "destination"]
+- ["Ps7CVarArg", "determineMyCurrentLocation"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "doornofield"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "geocodeAddressString"]
+- ["Ps7CVarArg", "geocoder"]
+- ["Ps7CVarArg", "getdatafromaddress"]
+- !private ["Ps7CVarArg", "identifier"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "kCLLocationAccuracyBest"]
+- !private ["Ps7CVarArg", "last"]
+- ["Ps7CVarArg", "latitute"]
+- !private ["Ps7CVarArg", "locality"]
+- !private ["Ps7CVarArg", "location"]
+- ["Ps7CVarArg", "locationManager"]
+- ["Ps7CVarArg", "locationManagerDidPauseLocationUpdates"]
+- ["Ps7CVarArg", "locationManagerDidResumeLocationUpdates"]
+- ["Ps7CVarArg", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps7CVarArg", "locationServicesEnabled"]
+- ["Ps7CVarArg", "longvalue"]
+- ["Ps7CVarArg", "mobilefield"]
+- !private ["Ps7CVarArg", "performSegue"]
+- ["Ps7CVarArg", "placeMark"]
+- !private ["Ps7CVarArg", "postalCode"]
+- ["Ps7CVarArg", "prepare"]
+- !private ["Ps7CVarArg", "previewDict"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "requestAlwaysAuthorization"]
+- !private ["Ps7CVarArg", "reverseGeocodeLocation"]
+- ["Ps7CVarArg", "signupinfoDict"]
+- !private ["Ps7CVarArg", "startUpdatingLocation"]
+- ["Ps7CVarArg", "statefield"]
+- ["Ps7CVarArg", "streetfield"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "thoroughfare"]
+- !private ["Ps7CVarArg", "updateDict"]
+- !private ["Ps7CVarArg", "updateValue"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", "viewWillAppear"]
+- ["Ps7CVarArg", "zipcodefield"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Indices"]
+- !private ["Ps10Collection", "Iterator"]
+- ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "SubSequence"]
+- ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "last"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Collection", "updateDict"]
+- !private ["Ps10Collection", "updateValue"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "CLGeocoder"]
+- !private ["Ps28CustomDebugStringConvertible", "CLLocation"]
+- !private ["Ps28CustomDebugStringConvertible", "CLLocationManager"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "KuserZip"]
+- !private ["Ps28CustomDebugStringConvertible", "Kusercity"]
+- !private ["Ps28CustomDebugStringConvertible", "Kusercountry"]
+- !private ["Ps28CustomDebugStringConvertible", "Kuserdoorno"]
+- !private ["Ps28CustomDebugStringConvertible", "Kusermobile"]
+- !private ["Ps28CustomDebugStringConvertible", "Kuserstate"]
+- !private ["Ps28CustomDebugStringConvertible", "Kuserstreet"]
+- ["Ps28CustomDebugStringConvertible", "SignupAddressPreviousAction"]
+- ["Ps28CustomDebugStringConvertible", "SignupaddressnextAction"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "administrativeArea"]
+- ["Ps28CustomDebugStringConvertible", "cityfield"]
+- !private ["Ps28CustomDebugStringConvertible", "coordinate"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "country"]
+- ["Ps28CustomDebugStringConvertible", "countryfield"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "desiredAccuracy"]
+- !private ["Ps28CustomDebugStringConvertible", "destination"]
+- ["Ps28CustomDebugStringConvertible", "determineMyCurrentLocation"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "doornofield"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "geocodeAddressString"]
+- ["Ps28CustomDebugStringConvertible", "geocoder"]
+- ["Ps28CustomDebugStringConvertible", "getdatafromaddress"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kCLLocationAccuracyBest"]
+- !private ["Ps28CustomDebugStringConvertible", "last"]
+- ["Ps28CustomDebugStringConvertible", "latitute"]
+- !private ["Ps28CustomDebugStringConvertible", "locality"]
+- !private ["Ps28CustomDebugStringConvertible", "location"]
+- ["Ps28CustomDebugStringConvertible", "locationManager"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps28CustomDebugStringConvertible", "locationServicesEnabled"]
+- ["Ps28CustomDebugStringConvertible", "longvalue"]
+- ["Ps28CustomDebugStringConvertible", "mobilefield"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegue"]
+- ["Ps28CustomDebugStringConvertible", "placeMark"]
+- !private ["Ps28CustomDebugStringConvertible", "postalCode"]
+- ["Ps28CustomDebugStringConvertible", "prepare"]
+- !private ["Ps28CustomDebugStringConvertible", "previewDict"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "requestAlwaysAuthorization"]
+- !private ["Ps28CustomDebugStringConvertible", "reverseGeocodeLocation"]
+- ["Ps28CustomDebugStringConvertible", "signupinfoDict"]
+- !private ["Ps28CustomDebugStringConvertible", "startUpdatingLocation"]
+- ["Ps28CustomDebugStringConvertible", "statefield"]
+- ["Ps28CustomDebugStringConvertible", "streetfield"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "thoroughfare"]
+- !private ["Ps28CustomDebugStringConvertible", "updateDict"]
+- !private ["Ps28CustomDebugStringConvertible", "updateValue"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", "zipcodefield"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "first"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "last"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "updateDict"]
+- !private ["Ps17CustomReflectable", "updateValue"]
+- ["Ps23CustomStringConvertible", "CLGeocoder"]
+- !private ["Ps23CustomStringConvertible", "CLLocation"]
+- !private ["Ps23CustomStringConvertible", "CLLocationManager"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "KuserZip"]
+- !private ["Ps23CustomStringConvertible", "Kusercity"]
+- !private ["Ps23CustomStringConvertible", "Kusercountry"]
+- !private ["Ps23CustomStringConvertible", "Kuserdoorno"]
+- !private ["Ps23CustomStringConvertible", "Kusermobile"]
+- !private ["Ps23CustomStringConvertible", "Kuserstate"]
+- !private ["Ps23CustomStringConvertible", "Kuserstreet"]
+- ["Ps23CustomStringConvertible", "SignupAddressPreviousAction"]
+- ["Ps23CustomStringConvertible", "SignupaddressnextAction"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "administrativeArea"]
+- ["Ps23CustomStringConvertible", "cityfield"]
+- !private ["Ps23CustomStringConvertible", "coordinate"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "country"]
+- ["Ps23CustomStringConvertible", "countryfield"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "desiredAccuracy"]
+- !private ["Ps23CustomStringConvertible", "destination"]
+- ["Ps23CustomStringConvertible", "determineMyCurrentLocation"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "doornofield"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "geocodeAddressString"]
+- ["Ps23CustomStringConvertible", "geocoder"]
+- ["Ps23CustomStringConvertible", "getdatafromaddress"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kCLLocationAccuracyBest"]
+- !private ["Ps23CustomStringConvertible", "last"]
+- ["Ps23CustomStringConvertible", "latitute"]
+- !private ["Ps23CustomStringConvertible", "locality"]
+- !private ["Ps23CustomStringConvertible", "location"]
+- ["Ps23CustomStringConvertible", "locationManager"]
+- ["Ps23CustomStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps23CustomStringConvertible", "locationServicesEnabled"]
+- ["Ps23CustomStringConvertible", "longvalue"]
+- ["Ps23CustomStringConvertible", "mobilefield"]
+- !private ["Ps23CustomStringConvertible", "performSegue"]
+- ["Ps23CustomStringConvertible", "placeMark"]
+- !private ["Ps23CustomStringConvertible", "postalCode"]
+- ["Ps23CustomStringConvertible", "prepare"]
+- !private ["Ps23CustomStringConvertible", "previewDict"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "requestAlwaysAuthorization"]
+- !private ["Ps23CustomStringConvertible", "reverseGeocodeLocation"]
+- ["Ps23CustomStringConvertible", "signupinfoDict"]
+- !private ["Ps23CustomStringConvertible", "startUpdatingLocation"]
+- ["Ps23CustomStringConvertible", "statefield"]
+- ["Ps23CustomStringConvertible", "streetfield"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "thoroughfare"]
+- !private ["Ps23CustomStringConvertible", "updateDict"]
+- !private ["Ps23CustomStringConvertible", "updateValue"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", "zipcodefield"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs27DefaultBidirectionalIndices", "Index"]
+- !private ["Vs27DefaultBidirectionalIndices", "Iterator"]
+- !private ["Vs27DefaultBidirectionalIndices", "SubSequence"]
+- !private ["Vs27DefaultBidirectionalIndices", "_Element"]
+- !private ["Vs26DefaultRandomAccessIndices", "Index"]
+- !private ["Vs26DefaultRandomAccessIndices", "IndexDistance"]
+- !private ["Vs26DefaultRandomAccessIndices", "Indices"]
+- !private ["Vs26DefaultRandomAccessIndices", "Iterator"]
+- !private ["Vs26DefaultRandomAccessIndices", "SubSequence"]
+- !private ["Vs26DefaultRandomAccessIndices", "_Element"]
+- ["Vs10Dictionary", "Dictionary"]
+- !private ["Vs10Dictionary", "Iterator"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- ["Vs10Dictionary", "updateDict"]
+- !private ["Vs10Dictionary", "updateValue"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- ["Sd", "deinit"]
+- ["Ps9Equatable", "CLGeocoder"]
+- !private ["Ps9Equatable", "CLLocation"]
+- !private ["Ps9Equatable", "CLLocationManager"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "KuserZip"]
+- !private ["Ps9Equatable", "Kusercity"]
+- !private ["Ps9Equatable", "Kusercountry"]
+- !private ["Ps9Equatable", "Kuserdoorno"]
+- !private ["Ps9Equatable", "Kusermobile"]
+- !private ["Ps9Equatable", "Kuserstate"]
+- !private ["Ps9Equatable", "Kuserstreet"]
+- ["Ps9Equatable", "SignupAddressPreviousAction"]
+- ["Ps9Equatable", "SignupaddressnextAction"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "administrativeArea"]
+- ["Ps9Equatable", "cityfield"]
+- !private ["Ps9Equatable", "coordinate"]
+- !private ["Ps9Equatable", "country"]
+- ["Ps9Equatable", "countryfield"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "desiredAccuracy"]
+- !private ["Ps9Equatable", "destination"]
+- ["Ps9Equatable", "determineMyCurrentLocation"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "doornofield"]
+- !private ["Ps9Equatable", "geocodeAddressString"]
+- ["Ps9Equatable", "geocoder"]
+- ["Ps9Equatable", "getdatafromaddress"]
+- !private ["Ps9Equatable", "identifier"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kCLLocationAccuracyBest"]
+- ["Ps9Equatable", "latitute"]
+- !private ["Ps9Equatable", "locality"]
+- !private ["Ps9Equatable", "location"]
+- ["Ps9Equatable", "locationManager"]
+- ["Ps9Equatable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9Equatable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9Equatable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9Equatable", "locationServicesEnabled"]
+- ["Ps9Equatable", "longvalue"]
+- ["Ps9Equatable", "mobilefield"]
+- !private ["Ps9Equatable", "performSegue"]
+- ["Ps9Equatable", "placeMark"]
+- !private ["Ps9Equatable", "postalCode"]
+- ["Ps9Equatable", "prepare"]
+- !private ["Ps9Equatable", "previewDict"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "requestAlwaysAuthorization"]
+- !private ["Ps9Equatable", "reverseGeocodeLocation"]
+- ["Ps9Equatable", "signupinfoDict"]
+- !private ["Ps9Equatable", "startUpdatingLocation"]
+- ["Ps9Equatable", "statefield"]
+- ["Ps9Equatable", "streetfield"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "thoroughfare"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", "zipcodefield"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "deinit"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Index"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps25ExpressibleByArrayLiteral", "last"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "updateDict"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "updateValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- ["Ps8Hashable", "CLGeocoder"]
+- !private ["Ps8Hashable", "CLLocation"]
+- !private ["Ps8Hashable", "CLLocationManager"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "KuserZip"]
+- !private ["Ps8Hashable", "Kusercity"]
+- !private ["Ps8Hashable", "Kusercountry"]
+- !private ["Ps8Hashable", "Kuserdoorno"]
+- !private ["Ps8Hashable", "Kusermobile"]
+- !private ["Ps8Hashable", "Kuserstate"]
+- !private ["Ps8Hashable", "Kuserstreet"]
+- ["Ps8Hashable", "SignupAddressPreviousAction"]
+- ["Ps8Hashable", "SignupaddressnextAction"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "administrativeArea"]
+- ["Ps8Hashable", "cityfield"]
+- !private ["Ps8Hashable", "coordinate"]
+- !private ["Ps8Hashable", "country"]
+- ["Ps8Hashable", "countryfield"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "desiredAccuracy"]
+- !private ["Ps8Hashable", "destination"]
+- ["Ps8Hashable", "determineMyCurrentLocation"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "doornofield"]
+- !private ["Ps8Hashable", "geocodeAddressString"]
+- ["Ps8Hashable", "geocoder"]
+- ["Ps8Hashable", "getdatafromaddress"]
+- !private ["Ps8Hashable", "identifier"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kCLLocationAccuracyBest"]
+- ["Ps8Hashable", "latitute"]
+- !private ["Ps8Hashable", "locality"]
+- !private ["Ps8Hashable", "location"]
+- ["Ps8Hashable", "locationManager"]
+- ["Ps8Hashable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps8Hashable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps8Hashable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps8Hashable", "locationServicesEnabled"]
+- ["Ps8Hashable", "longvalue"]
+- ["Ps8Hashable", "mobilefield"]
+- !private ["Ps8Hashable", "performSegue"]
+- ["Ps8Hashable", "placeMark"]
+- !private ["Ps8Hashable", "postalCode"]
+- ["Ps8Hashable", "prepare"]
+- !private ["Ps8Hashable", "previewDict"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "requestAlwaysAuthorization"]
+- !private ["Ps8Hashable", "reverseGeocodeLocation"]
+- ["Ps8Hashable", "signupinfoDict"]
+- !private ["Ps8Hashable", "startUpdatingLocation"]
+- ["Ps8Hashable", "statefield"]
+- ["Ps8Hashable", "streetfield"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "thoroughfare"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", "zipcodefield"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Indices"]
+- !private ["Ps9Indexable", "Iterator"]
+- ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Ps9Indexable", "last"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps9Indexable", "updateDict"]
+- !private ["Ps9Indexable", "updateValue"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Indices"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "first"]
+- !private ["Ps13IndexableBase", "last"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Ps13IndexableBase", "updateDict"]
+- !private ["Ps13IndexableBase", "updateValue"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Index"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "SubSequence"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps17MutableCollection", "last"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "first"]
+- !private ["Ps16MutableIndexable", "last"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "CLGeocoder"]
+- !private ["PSo8NSCoding", "CLLocation"]
+- !private ["PSo8NSCoding", "CLLocationManager"]
+- !private ["PSo8NSCoding", "KuserZip"]
+- !private ["PSo8NSCoding", "Kusercity"]
+- !private ["PSo8NSCoding", "Kusercountry"]
+- !private ["PSo8NSCoding", "Kuserdoorno"]
+- !private ["PSo8NSCoding", "Kusermobile"]
+- !private ["PSo8NSCoding", "Kuserstate"]
+- !private ["PSo8NSCoding", "Kuserstreet"]
+- ["PSo8NSCoding", "SignupAddressPreviousAction"]
+- ["PSo8NSCoding", "SignupaddressnextAction"]
+- !private ["PSo8NSCoding", "administrativeArea"]
+- ["PSo8NSCoding", "cityfield"]
+- !private ["PSo8NSCoding", "coordinate"]
+- !private ["PSo8NSCoding", "country"]
+- ["PSo8NSCoding", "countryfield"]
+- ["PSo8NSCoding", "determineMyCurrentLocation"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "doornofield"]
+- ["PSo8NSCoding", "geocoder"]
+- ["PSo8NSCoding", "getdatafromaddress"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kCLLocationAccuracyBest"]
+- ["PSo8NSCoding", "latitute"]
+- !private ["PSo8NSCoding", "locality"]
+- !private ["PSo8NSCoding", "location"]
+- ["PSo8NSCoding", "locationManager"]
+- ["PSo8NSCoding", "locationManagerDidPauseLocationUpdates"]
+- ["PSo8NSCoding", "locationManagerDidResumeLocationUpdates"]
+- ["PSo8NSCoding", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo8NSCoding", "longvalue"]
+- ["PSo8NSCoding", "mobilefield"]
+- !private ["PSo8NSCoding", "performSegue"]
+- ["PSo8NSCoding", "placeMark"]
+- !private ["PSo8NSCoding", "postalCode"]
+- ["PSo8NSCoding", "prepare"]
+- !private ["PSo8NSCoding", "previewDict"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "signupinfoDict"]
+- ["PSo8NSCoding", "statefield"]
+- ["PSo8NSCoding", "streetfield"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "thoroughfare"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", "zipcodefield"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "administrativeArea"]
+- !private ["PSo9NSCopying", "coordinate"]
+- !private ["PSo9NSCopying", "country"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "locality"]
+- !private ["PSo9NSCopying", "location"]
+- !private ["PSo9NSCopying", "postalCode"]
+- !private ["PSo9NSCopying", "thoroughfare"]
+- ["PSo26NSExtensionRequestHandling", "CLGeocoder"]
+- !private ["PSo26NSExtensionRequestHandling", "CLLocation"]
+- !private ["PSo26NSExtensionRequestHandling", "CLLocationManager"]
+- !private ["PSo26NSExtensionRequestHandling", "KuserZip"]
+- !private ["PSo26NSExtensionRequestHandling", "Kusercity"]
+- !private ["PSo26NSExtensionRequestHandling", "Kusercountry"]
+- !private ["PSo26NSExtensionRequestHandling", "Kuserdoorno"]
+- !private ["PSo26NSExtensionRequestHandling", "Kusermobile"]
+- !private ["PSo26NSExtensionRequestHandling", "Kuserstate"]
+- !private ["PSo26NSExtensionRequestHandling", "Kuserstreet"]
+- ["PSo26NSExtensionRequestHandling", "SignupAddressPreviousAction"]
+- ["PSo26NSExtensionRequestHandling", "SignupaddressnextAction"]
+- ["PSo26NSExtensionRequestHandling", "cityfield"]
+- ["PSo26NSExtensionRequestHandling", "countryfield"]
+- ["PSo26NSExtensionRequestHandling", "determineMyCurrentLocation"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "doornofield"]
+- ["PSo26NSExtensionRequestHandling", "geocoder"]
+- ["PSo26NSExtensionRequestHandling", "getdatafromaddress"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "kCLLocationAccuracyBest"]
+- ["PSo26NSExtensionRequestHandling", "latitute"]
+- ["PSo26NSExtensionRequestHandling", "locationManager"]
+- ["PSo26NSExtensionRequestHandling", "locationManagerDidPauseLocationUpdates"]
+- ["PSo26NSExtensionRequestHandling", "locationManagerDidResumeLocationUpdates"]
+- ["PSo26NSExtensionRequestHandling", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo26NSExtensionRequestHandling", "longvalue"]
+- ["PSo26NSExtensionRequestHandling", "mobilefield"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegue"]
+- ["PSo26NSExtensionRequestHandling", "placeMark"]
+- ["PSo26NSExtensionRequestHandling", "prepare"]
+- !private ["PSo26NSExtensionRequestHandling", "previewDict"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "signupinfoDict"]
+- ["PSo26NSExtensionRequestHandling", "statefield"]
+- ["PSo26NSExtensionRequestHandling", "streetfield"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", "zipcodefield"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CLGeocoder"]
+- ["CSo8NSObject", "CLLocation"]
+- ["CSo8NSObject", "CLLocationManager"]
+- ["CSo8NSObject", "CLPlacemark"]
+- ["CSo8NSObject", "Error"]
+- !private ["CSo8NSObject", "KuserZip"]
+- !private ["CSo8NSObject", "Kusercity"]
+- !private ["CSo8NSObject", "Kusercountry"]
+- !private ["CSo8NSObject", "Kuserdoorno"]
+- !private ["CSo8NSObject", "Kusermobile"]
+- !private ["CSo8NSObject", "Kuserstate"]
+- !private ["CSo8NSObject", "Kuserstreet"]
+- !private ["CSo8NSObject", "SignUpViewControllerCategory"]
+- ["CSo8NSObject", "SignupAddressPreviousAction"]
+- ["CSo8NSObject", "SignupaddressnextAction"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "administrativeArea"]
+- ["CSo8NSObject", "cityfield"]
+- !private ["CSo8NSObject", "coordinate"]
+- !private ["CSo8NSObject", "country"]
+- ["CSo8NSObject", "countryfield"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "desiredAccuracy"]
+- !private ["CSo8NSObject", "destination"]
+- ["CSo8NSObject", "determineMyCurrentLocation"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "doornofield"]
+- !private ["CSo8NSObject", "geocodeAddressString"]
+- ["CSo8NSObject", "geocoder"]
+- ["CSo8NSObject", "getdatafromaddress"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kCLLocationAccuracyBest"]
+- ["CSo8NSObject", "latitute"]
+- !private ["CSo8NSObject", "locality"]
+- !private ["CSo8NSObject", "location"]
+- ["CSo8NSObject", "locationManager"]
+- ["CSo8NSObject", "locationManagerDidPauseLocationUpdates"]
+- ["CSo8NSObject", "locationManagerDidResumeLocationUpdates"]
+- ["CSo8NSObject", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["CSo8NSObject", "locationServicesEnabled"]
+- ["CSo8NSObject", "longvalue"]
+- ["CSo8NSObject", "mobilefield"]
+- !private ["CSo8NSObject", "performSegue"]
+- ["CSo8NSObject", "placeMark"]
+- !private ["CSo8NSObject", "postalCode"]
+- ["CSo8NSObject", "prepare"]
+- !private ["CSo8NSObject", "previewDict"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "requestAlwaysAuthorization"]
+- !private ["CSo8NSObject", "reverseGeocodeLocation"]
+- ["CSo8NSObject", "signupinfoDict"]
+- !private ["CSo8NSObject", "startUpdatingLocation"]
+- ["CSo8NSObject", "statefield"]
+- ["CSo8NSObject", "streetfield"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "thoroughfare"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["CSo8NSObject", "zipcodefield"]
+- ["PSo16NSObjectProtocol", "CLGeocoder"]
+- !private ["PSo16NSObjectProtocol", "CLLocation"]
+- !private ["PSo16NSObjectProtocol", "CLLocationManager"]
+- !private ["PSo16NSObjectProtocol", "KuserZip"]
+- !private ["PSo16NSObjectProtocol", "Kusercity"]
+- !private ["PSo16NSObjectProtocol", "Kusercountry"]
+- !private ["PSo16NSObjectProtocol", "Kuserdoorno"]
+- !private ["PSo16NSObjectProtocol", "Kusermobile"]
+- !private ["PSo16NSObjectProtocol", "Kuserstate"]
+- !private ["PSo16NSObjectProtocol", "Kuserstreet"]
+- ["PSo16NSObjectProtocol", "SignupAddressPreviousAction"]
+- ["PSo16NSObjectProtocol", "SignupaddressnextAction"]
+- !private ["PSo16NSObjectProtocol", "administrativeArea"]
+- ["PSo16NSObjectProtocol", "cityfield"]
+- !private ["PSo16NSObjectProtocol", "coordinate"]
+- !private ["PSo16NSObjectProtocol", "country"]
+- ["PSo16NSObjectProtocol", "countryfield"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "desiredAccuracy"]
+- !private ["PSo16NSObjectProtocol", "destination"]
+- ["PSo16NSObjectProtocol", "determineMyCurrentLocation"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "doornofield"]
+- !private ["PSo16NSObjectProtocol", "geocodeAddressString"]
+- ["PSo16NSObjectProtocol", "geocoder"]
+- ["PSo16NSObjectProtocol", "getdatafromaddress"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kCLLocationAccuracyBest"]
+- ["PSo16NSObjectProtocol", "latitute"]
+- !private ["PSo16NSObjectProtocol", "locality"]
+- !private ["PSo16NSObjectProtocol", "location"]
+- ["PSo16NSObjectProtocol", "locationManager"]
+- ["PSo16NSObjectProtocol", "locationManagerDidPauseLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerDidResumeLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo16NSObjectProtocol", "locationServicesEnabled"]
+- ["PSo16NSObjectProtocol", "longvalue"]
+- ["PSo16NSObjectProtocol", "mobilefield"]
+- !private ["PSo16NSObjectProtocol", "performSegue"]
+- ["PSo16NSObjectProtocol", "placeMark"]
+- !private ["PSo16NSObjectProtocol", "postalCode"]
+- ["PSo16NSObjectProtocol", "prepare"]
+- !private ["PSo16NSObjectProtocol", "previewDict"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "requestAlwaysAuthorization"]
+- !private ["PSo16NSObjectProtocol", "reverseGeocodeLocation"]
+- ["PSo16NSObjectProtocol", "signupinfoDict"]
+- !private ["PSo16NSObjectProtocol", "startUpdatingLocation"]
+- ["PSo16NSObjectProtocol", "statefield"]
+- ["PSo16NSObjectProtocol", "streetfield"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "thoroughfare"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "zipcodefield"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "administrativeArea"]
+- !private ["PSo14NSSecureCoding", "coordinate"]
+- !private ["PSo14NSSecureCoding", "country"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "locality"]
+- !private ["PSo14NSSecureCoding", "location"]
+- !private ["PSo14NSSecureCoding", "postalCode"]
+- !private ["PSo14NSSecureCoding", "thoroughfare"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Index"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Indices"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "SubSequence"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps22RandomAccessCollection", "last"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps21RandomAccessIndexable", "Index"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Indices"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "SubSequence"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps21RandomAccessIndexable", "first"]
+- !private ["Ps21RandomAccessIndexable", "last"]
+- !private ["Ps21RandomAccessIndexable", "subscript"]
+- !private ["Vs17RandomAccessSlice", "Index"]
+- !private ["Vs17RandomAccessSlice", "IndexDistance"]
+- !private ["Vs17RandomAccessSlice", "Indices"]
+- !private ["Vs17RandomAccessSlice", "Iterator"]
+- !private ["Vs17RandomAccessSlice", "SubSequence"]
+- !private ["Vs17RandomAccessSlice", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "Index"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "SubSequence"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps26RangeReplaceableCollection", "last"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps25RangeReplaceableIndexable", "Index"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "SubSequence"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "first"]
+- !private ["Ps25RangeReplaceableIndexable", "last"]
+- !private ["Ps25RangeReplaceableIndexable", "subscript"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Indices"]
+- !private ["Ps8Sequence", "Iterator"]
+- ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "SubSequence"]
+- ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "last"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "updateDict"]
+- !private ["Ps8Sequence", "updateValue"]
+- ["C8HereYaGo28SignUpViewControllerCategory", "deinit"]
+- !private ["C8HereYaGo28SignUpViewControllerCategory", "previewDict"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- ["C8HereYaGo27SignupAddressViewController", "Bool"]
+- ["C8HereYaGo27SignupAddressViewController", "CLGeocoder"]
+- ["C8HereYaGo27SignupAddressViewController", "CLLocation"]
+- ["C8HereYaGo27SignupAddressViewController", "CLLocationManager"]
+- ["C8HereYaGo27SignupAddressViewController", "CLPlacemark"]
+- ["C8HereYaGo27SignupAddressViewController", "Error"]
+- !private ["C8HereYaGo27SignupAddressViewController", "KuserZip"]
+- !private ["C8HereYaGo27SignupAddressViewController", "Kusercity"]
+- !private ["C8HereYaGo27SignupAddressViewController", "Kusercountry"]
+- !private ["C8HereYaGo27SignupAddressViewController", "Kuserdoorno"]
+- !private ["C8HereYaGo27SignupAddressViewController", "Kusermobile"]
+- !private ["C8HereYaGo27SignupAddressViewController", "Kuserstate"]
+- !private ["C8HereYaGo27SignupAddressViewController", "Kuserstreet"]
+- !private ["C8HereYaGo27SignupAddressViewController", "SignUpViewControllerCategory"]
+- ["C8HereYaGo27SignupAddressViewController", "SignupAddressPreviousAction"]
+- ["C8HereYaGo27SignupAddressViewController", "SignupaddressnextAction"]
+- ["C8HereYaGo27SignupAddressViewController", "String"]
+- ["C8HereYaGo27SignupAddressViewController", "UIStoryboardSegue"]
+- ["C8HereYaGo27SignupAddressViewController", "UITextField"]
+- ["C8HereYaGo27SignupAddressViewController", "cityfield"]
+- ["C8HereYaGo27SignupAddressViewController", "countryfield"]
+- ["C8HereYaGo27SignupAddressViewController", "deinit"]
+- ["C8HereYaGo27SignupAddressViewController", "determineMyCurrentLocation"]
+- ["C8HereYaGo27SignupAddressViewController", "didReceiveMemoryWarning"]
+- ["C8HereYaGo27SignupAddressViewController", "doornofield"]
+- ["C8HereYaGo27SignupAddressViewController", "geocoder"]
+- ["C8HereYaGo27SignupAddressViewController", "getdatafromaddress"]
+- ["C8HereYaGo27SignupAddressViewController", "init"]
+- !private ["C8HereYaGo27SignupAddressViewController", "kCLLocationAccuracyBest"]
+- ["C8HereYaGo27SignupAddressViewController", "latitute"]
+- ["C8HereYaGo27SignupAddressViewController", "locationManager"]
+- ["C8HereYaGo27SignupAddressViewController", "locationManagerDidPauseLocationUpdates"]
+- ["C8HereYaGo27SignupAddressViewController", "locationManagerDidResumeLocationUpdates"]
+- ["C8HereYaGo27SignupAddressViewController", "locationManagerShouldDisplayHeadingCalibration"]
+- ["C8HereYaGo27SignupAddressViewController", "longvalue"]
+- ["C8HereYaGo27SignupAddressViewController", "mobilefield"]
+- !private ["C8HereYaGo27SignupAddressViewController", "performSegue"]
+- ["C8HereYaGo27SignupAddressViewController", "placeMark"]
+- ["C8HereYaGo27SignupAddressViewController", "prepare"]
+- !private ["C8HereYaGo27SignupAddressViewController", "print"]
+- ["C8HereYaGo27SignupAddressViewController", "signupinfoDict"]
+- ["C8HereYaGo27SignupAddressViewController", "statefield"]
+- ["C8HereYaGo27SignupAddressViewController", "streetfield"]
+- ["C8HereYaGo27SignupAddressViewController", "viewDidLoad"]
+- ["C8HereYaGo27SignupAddressViewController", "viewWillAppear"]
+- ["C8HereYaGo27SignupAddressViewController", "zipcodefield"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "CLGeocoder"]
+- !private ["PSo21UIAppearanceContainer", "CLLocation"]
+- !private ["PSo21UIAppearanceContainer", "CLLocationManager"]
+- !private ["PSo21UIAppearanceContainer", "KuserZip"]
+- !private ["PSo21UIAppearanceContainer", "Kusercity"]
+- !private ["PSo21UIAppearanceContainer", "Kusercountry"]
+- !private ["PSo21UIAppearanceContainer", "Kuserdoorno"]
+- !private ["PSo21UIAppearanceContainer", "Kusermobile"]
+- !private ["PSo21UIAppearanceContainer", "Kuserstate"]
+- !private ["PSo21UIAppearanceContainer", "Kuserstreet"]
+- ["PSo21UIAppearanceContainer", "SignupAddressPreviousAction"]
+- ["PSo21UIAppearanceContainer", "SignupaddressnextAction"]
+- ["PSo21UIAppearanceContainer", "cityfield"]
+- ["PSo21UIAppearanceContainer", "countryfield"]
+- ["PSo21UIAppearanceContainer", "determineMyCurrentLocation"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "doornofield"]
+- ["PSo21UIAppearanceContainer", "geocoder"]
+- ["PSo21UIAppearanceContainer", "getdatafromaddress"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "kCLLocationAccuracyBest"]
+- ["PSo21UIAppearanceContainer", "latitute"]
+- ["PSo21UIAppearanceContainer", "locationManager"]
+- ["PSo21UIAppearanceContainer", "locationManagerDidPauseLocationUpdates"]
+- ["PSo21UIAppearanceContainer", "locationManagerDidResumeLocationUpdates"]
+- ["PSo21UIAppearanceContainer", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo21UIAppearanceContainer", "longvalue"]
+- ["PSo21UIAppearanceContainer", "mobilefield"]
+- !private ["PSo21UIAppearanceContainer", "performSegue"]
+- ["PSo21UIAppearanceContainer", "placeMark"]
+- ["PSo21UIAppearanceContainer", "prepare"]
+- !private ["PSo21UIAppearanceContainer", "previewDict"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "signupinfoDict"]
+- ["PSo21UIAppearanceContainer", "statefield"]
+- ["PSo21UIAppearanceContainer", "streetfield"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", "zipcodefield"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "CLGeocoder"]
+- !private ["PSo18UIContentContainer", "CLLocation"]
+- !private ["PSo18UIContentContainer", "CLLocationManager"]
+- !private ["PSo18UIContentContainer", "KuserZip"]
+- !private ["PSo18UIContentContainer", "Kusercity"]
+- !private ["PSo18UIContentContainer", "Kusercountry"]
+- !private ["PSo18UIContentContainer", "Kuserdoorno"]
+- !private ["PSo18UIContentContainer", "Kusermobile"]
+- !private ["PSo18UIContentContainer", "Kuserstate"]
+- !private ["PSo18UIContentContainer", "Kuserstreet"]
+- ["PSo18UIContentContainer", "SignupAddressPreviousAction"]
+- ["PSo18UIContentContainer", "SignupaddressnextAction"]
+- ["PSo18UIContentContainer", "cityfield"]
+- ["PSo18UIContentContainer", "countryfield"]
+- ["PSo18UIContentContainer", "determineMyCurrentLocation"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "doornofield"]
+- ["PSo18UIContentContainer", "geocoder"]
+- ["PSo18UIContentContainer", "getdatafromaddress"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "kCLLocationAccuracyBest"]
+- ["PSo18UIContentContainer", "latitute"]
+- ["PSo18UIContentContainer", "locationManager"]
+- ["PSo18UIContentContainer", "locationManagerDidPauseLocationUpdates"]
+- ["PSo18UIContentContainer", "locationManagerDidResumeLocationUpdates"]
+- ["PSo18UIContentContainer", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo18UIContentContainer", "longvalue"]
+- ["PSo18UIContentContainer", "mobilefield"]
+- !private ["PSo18UIContentContainer", "performSegue"]
+- ["PSo18UIContentContainer", "placeMark"]
+- ["PSo18UIContentContainer", "prepare"]
+- !private ["PSo18UIContentContainer", "previewDict"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "signupinfoDict"]
+- ["PSo18UIContentContainer", "statefield"]
+- ["PSo18UIContentContainer", "streetfield"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", "zipcodefield"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "CLGeocoder"]
+- !private ["PSo18UIFocusEnvironment", "CLLocation"]
+- !private ["PSo18UIFocusEnvironment", "CLLocationManager"]
+- !private ["PSo18UIFocusEnvironment", "KuserZip"]
+- !private ["PSo18UIFocusEnvironment", "Kusercity"]
+- !private ["PSo18UIFocusEnvironment", "Kusercountry"]
+- !private ["PSo18UIFocusEnvironment", "Kuserdoorno"]
+- !private ["PSo18UIFocusEnvironment", "Kusermobile"]
+- !private ["PSo18UIFocusEnvironment", "Kuserstate"]
+- !private ["PSo18UIFocusEnvironment", "Kuserstreet"]
+- ["PSo18UIFocusEnvironment", "SignupAddressPreviousAction"]
+- ["PSo18UIFocusEnvironment", "SignupaddressnextAction"]
+- ["PSo18UIFocusEnvironment", "cityfield"]
+- ["PSo18UIFocusEnvironment", "countryfield"]
+- ["PSo18UIFocusEnvironment", "determineMyCurrentLocation"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "doornofield"]
+- ["PSo18UIFocusEnvironment", "geocoder"]
+- ["PSo18UIFocusEnvironment", "getdatafromaddress"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "kCLLocationAccuracyBest"]
+- ["PSo18UIFocusEnvironment", "latitute"]
+- ["PSo18UIFocusEnvironment", "locationManager"]
+- ["PSo18UIFocusEnvironment", "locationManagerDidPauseLocationUpdates"]
+- ["PSo18UIFocusEnvironment", "locationManagerDidResumeLocationUpdates"]
+- ["PSo18UIFocusEnvironment", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo18UIFocusEnvironment", "longvalue"]
+- ["PSo18UIFocusEnvironment", "mobilefield"]
+- !private ["PSo18UIFocusEnvironment", "performSegue"]
+- ["PSo18UIFocusEnvironment", "placeMark"]
+- ["PSo18UIFocusEnvironment", "prepare"]
+- !private ["PSo18UIFocusEnvironment", "previewDict"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "signupinfoDict"]
+- ["PSo18UIFocusEnvironment", "statefield"]
+- ["PSo18UIFocusEnvironment", "streetfield"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", "zipcodefield"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CLGeocoder"]
+- ["CSo11UIResponder", "CLLocation"]
+- ["CSo11UIResponder", "CLLocationManager"]
+- ["CSo11UIResponder", "CLPlacemark"]
+- ["CSo11UIResponder", "Error"]
+- !private ["CSo11UIResponder", "KuserZip"]
+- !private ["CSo11UIResponder", "Kusercity"]
+- !private ["CSo11UIResponder", "Kusercountry"]
+- !private ["CSo11UIResponder", "Kuserdoorno"]
+- !private ["CSo11UIResponder", "Kusermobile"]
+- !private ["CSo11UIResponder", "Kuserstate"]
+- !private ["CSo11UIResponder", "Kuserstreet"]
+- !private ["CSo11UIResponder", "SignUpViewControllerCategory"]
+- ["CSo11UIResponder", "SignupAddressPreviousAction"]
+- ["CSo11UIResponder", "SignupaddressnextAction"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "cityfield"]
+- ["CSo11UIResponder", "countryfield"]
+- ["CSo11UIResponder", "determineMyCurrentLocation"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "doornofield"]
+- ["CSo11UIResponder", "geocoder"]
+- ["CSo11UIResponder", "getdatafromaddress"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "kCLLocationAccuracyBest"]
+- ["CSo11UIResponder", "latitute"]
+- ["CSo11UIResponder", "locationManager"]
+- ["CSo11UIResponder", "locationManagerDidPauseLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerDidResumeLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo11UIResponder", "longvalue"]
+- ["CSo11UIResponder", "mobilefield"]
+- !private ["CSo11UIResponder", "performSegue"]
+- ["CSo11UIResponder", "placeMark"]
+- ["CSo11UIResponder", "prepare"]
+- !private ["CSo11UIResponder", "previewDict"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "signupinfoDict"]
+- ["CSo11UIResponder", "statefield"]
+- ["CSo11UIResponder", "streetfield"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- ["CSo11UIResponder", "zipcodefield"]
+- ["PSo30UIResponderStandardEditActions", "CLGeocoder"]
+- !private ["PSo30UIResponderStandardEditActions", "CLLocation"]
+- !private ["PSo30UIResponderStandardEditActions", "CLLocationManager"]
+- !private ["PSo30UIResponderStandardEditActions", "KuserZip"]
+- !private ["PSo30UIResponderStandardEditActions", "Kusercity"]
+- !private ["PSo30UIResponderStandardEditActions", "Kusercountry"]
+- !private ["PSo30UIResponderStandardEditActions", "Kuserdoorno"]
+- !private ["PSo30UIResponderStandardEditActions", "Kusermobile"]
+- !private ["PSo30UIResponderStandardEditActions", "Kuserstate"]
+- !private ["PSo30UIResponderStandardEditActions", "Kuserstreet"]
+- ["PSo30UIResponderStandardEditActions", "SignupAddressPreviousAction"]
+- ["PSo30UIResponderStandardEditActions", "SignupaddressnextAction"]
+- ["PSo30UIResponderStandardEditActions", "cityfield"]
+- ["PSo30UIResponderStandardEditActions", "countryfield"]
+- ["PSo30UIResponderStandardEditActions", "determineMyCurrentLocation"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "doornofield"]
+- ["PSo30UIResponderStandardEditActions", "geocoder"]
+- ["PSo30UIResponderStandardEditActions", "getdatafromaddress"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "kCLLocationAccuracyBest"]
+- ["PSo30UIResponderStandardEditActions", "latitute"]
+- ["PSo30UIResponderStandardEditActions", "locationManager"]
+- ["PSo30UIResponderStandardEditActions", "locationManagerDidPauseLocationUpdates"]
+- ["PSo30UIResponderStandardEditActions", "locationManagerDidResumeLocationUpdates"]
+- ["PSo30UIResponderStandardEditActions", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo30UIResponderStandardEditActions", "longvalue"]
+- ["PSo30UIResponderStandardEditActions", "mobilefield"]
+- !private ["PSo30UIResponderStandardEditActions", "performSegue"]
+- ["PSo30UIResponderStandardEditActions", "placeMark"]
+- ["PSo30UIResponderStandardEditActions", "prepare"]
+- !private ["PSo30UIResponderStandardEditActions", "previewDict"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- ["PSo30UIResponderStandardEditActions", "signupinfoDict"]
+- ["PSo30UIResponderStandardEditActions", "statefield"]
+- ["PSo30UIResponderStandardEditActions", "streetfield"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "viewWillAppear"]
+- ["PSo30UIResponderStandardEditActions", "zipcodefield"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "previewDict"]
+- ["PSo16UIStateRestoring", "CLGeocoder"]
+- !private ["PSo16UIStateRestoring", "CLLocation"]
+- !private ["PSo16UIStateRestoring", "CLLocationManager"]
+- !private ["PSo16UIStateRestoring", "KuserZip"]
+- !private ["PSo16UIStateRestoring", "Kusercity"]
+- !private ["PSo16UIStateRestoring", "Kusercountry"]
+- !private ["PSo16UIStateRestoring", "Kuserdoorno"]
+- !private ["PSo16UIStateRestoring", "Kusermobile"]
+- !private ["PSo16UIStateRestoring", "Kuserstate"]
+- !private ["PSo16UIStateRestoring", "Kuserstreet"]
+- ["PSo16UIStateRestoring", "SignupAddressPreviousAction"]
+- ["PSo16UIStateRestoring", "SignupaddressnextAction"]
+- ["PSo16UIStateRestoring", "cityfield"]
+- ["PSo16UIStateRestoring", "countryfield"]
+- ["PSo16UIStateRestoring", "determineMyCurrentLocation"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "doornofield"]
+- ["PSo16UIStateRestoring", "geocoder"]
+- ["PSo16UIStateRestoring", "getdatafromaddress"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "kCLLocationAccuracyBest"]
+- ["PSo16UIStateRestoring", "latitute"]
+- ["PSo16UIStateRestoring", "locationManager"]
+- ["PSo16UIStateRestoring", "locationManagerDidPauseLocationUpdates"]
+- ["PSo16UIStateRestoring", "locationManagerDidResumeLocationUpdates"]
+- ["PSo16UIStateRestoring", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo16UIStateRestoring", "longvalue"]
+- ["PSo16UIStateRestoring", "mobilefield"]
+- !private ["PSo16UIStateRestoring", "performSegue"]
+- ["PSo16UIStateRestoring", "placeMark"]
+- ["PSo16UIStateRestoring", "prepare"]
+- !private ["PSo16UIStateRestoring", "previewDict"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "signupinfoDict"]
+- ["PSo16UIStateRestoring", "statefield"]
+- ["PSo16UIStateRestoring", "streetfield"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", "zipcodefield"]
+- ["PSo16UIStateRestoring", ""]
+- ["CSo17UIStoryboardSegue", "deinit"]
+- !private ["CSo17UIStoryboardSegue", "destination"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["PSo21UITableViewDataSource", "previewDict"]
+- !private ["PSo19UITableViewDelegate", "previewDict"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- ["PSo18UITraitEnvironment", "CLGeocoder"]
+- !private ["PSo18UITraitEnvironment", "CLLocation"]
+- !private ["PSo18UITraitEnvironment", "CLLocationManager"]
+- !private ["PSo18UITraitEnvironment", "KuserZip"]
+- !private ["PSo18UITraitEnvironment", "Kusercity"]
+- !private ["PSo18UITraitEnvironment", "Kusercountry"]
+- !private ["PSo18UITraitEnvironment", "Kuserdoorno"]
+- !private ["PSo18UITraitEnvironment", "Kusermobile"]
+- !private ["PSo18UITraitEnvironment", "Kuserstate"]
+- !private ["PSo18UITraitEnvironment", "Kuserstreet"]
+- ["PSo18UITraitEnvironment", "SignupAddressPreviousAction"]
+- ["PSo18UITraitEnvironment", "SignupaddressnextAction"]
+- ["PSo18UITraitEnvironment", "cityfield"]
+- ["PSo18UITraitEnvironment", "countryfield"]
+- ["PSo18UITraitEnvironment", "determineMyCurrentLocation"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "doornofield"]
+- ["PSo18UITraitEnvironment", "geocoder"]
+- ["PSo18UITraitEnvironment", "getdatafromaddress"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "kCLLocationAccuracyBest"]
+- ["PSo18UITraitEnvironment", "latitute"]
+- ["PSo18UITraitEnvironment", "locationManager"]
+- ["PSo18UITraitEnvironment", "locationManagerDidPauseLocationUpdates"]
+- ["PSo18UITraitEnvironment", "locationManagerDidResumeLocationUpdates"]
+- ["PSo18UITraitEnvironment", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo18UITraitEnvironment", "longvalue"]
+- ["PSo18UITraitEnvironment", "mobilefield"]
+- !private ["PSo18UITraitEnvironment", "performSegue"]
+- ["PSo18UITraitEnvironment", "placeMark"]
+- ["PSo18UITraitEnvironment", "prepare"]
+- !private ["PSo18UITraitEnvironment", "previewDict"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "signupinfoDict"]
+- ["PSo18UITraitEnvironment", "statefield"]
+- ["PSo18UITraitEnvironment", "streetfield"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", "zipcodefield"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "CLGeocoder"]
+- ["CSo16UIViewController", "CLLocation"]
+- ["CSo16UIViewController", "CLLocationManager"]
+- ["CSo16UIViewController", "CLPlacemark"]
+- ["CSo16UIViewController", "Error"]
+- !private ["CSo16UIViewController", "KuserZip"]
+- !private ["CSo16UIViewController", "Kusercity"]
+- !private ["CSo16UIViewController", "Kusercountry"]
+- !private ["CSo16UIViewController", "Kuserdoorno"]
+- !private ["CSo16UIViewController", "Kusermobile"]
+- !private ["CSo16UIViewController", "Kuserstate"]
+- !private ["CSo16UIViewController", "Kuserstreet"]
+- !private ["CSo16UIViewController", "SignUpViewControllerCategory"]
+- ["CSo16UIViewController", "SignupAddressPreviousAction"]
+- ["CSo16UIViewController", "SignupaddressnextAction"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "cityfield"]
+- ["CSo16UIViewController", "countryfield"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "determineMyCurrentLocation"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "doornofield"]
+- ["CSo16UIViewController", "geocoder"]
+- ["CSo16UIViewController", "getdatafromaddress"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "kCLLocationAccuracyBest"]
+- ["CSo16UIViewController", "latitute"]
+- ["CSo16UIViewController", "locationManager"]
+- ["CSo16UIViewController", "locationManagerDidPauseLocationUpdates"]
+- ["CSo16UIViewController", "locationManagerDidResumeLocationUpdates"]
+- ["CSo16UIViewController", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo16UIViewController", "longvalue"]
+- ["CSo16UIViewController", "mobilefield"]
+- !private ["CSo16UIViewController", "performSegue"]
+- ["CSo16UIViewController", "placeMark"]
+- ["CSo16UIViewController", "prepare"]
+- !private ["CSo16UIViewController", "previewDict"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "signupinfoDict"]
+- ["CSo16UIViewController", "statefield"]
+- ["CSo16UIViewController", "streetfield"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", "zipcodefield"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Index"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "SubSequence"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps14_ArrayProtocol", "last"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps24_DestructorSafeContainer", "last"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "CLGeocoder"]
+- !private ["Ps9_Hashable", "CLLocation"]
+- !private ["Ps9_Hashable", "CLLocationManager"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "KuserZip"]
+- !private ["Ps9_Hashable", "Kusercity"]
+- !private ["Ps9_Hashable", "Kusercountry"]
+- !private ["Ps9_Hashable", "Kuserdoorno"]
+- !private ["Ps9_Hashable", "Kusermobile"]
+- !private ["Ps9_Hashable", "Kuserstate"]
+- !private ["Ps9_Hashable", "Kuserstreet"]
+- ["Ps9_Hashable", "SignupAddressPreviousAction"]
+- ["Ps9_Hashable", "SignupaddressnextAction"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "administrativeArea"]
+- ["Ps9_Hashable", "cityfield"]
+- !private ["Ps9_Hashable", "coordinate"]
+- !private ["Ps9_Hashable", "country"]
+- ["Ps9_Hashable", "countryfield"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "desiredAccuracy"]
+- !private ["Ps9_Hashable", "destination"]
+- ["Ps9_Hashable", "determineMyCurrentLocation"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "doornofield"]
+- !private ["Ps9_Hashable", "geocodeAddressString"]
+- ["Ps9_Hashable", "geocoder"]
+- ["Ps9_Hashable", "getdatafromaddress"]
+- !private ["Ps9_Hashable", "identifier"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kCLLocationAccuracyBest"]
+- ["Ps9_Hashable", "latitute"]
+- !private ["Ps9_Hashable", "locality"]
+- !private ["Ps9_Hashable", "location"]
+- ["Ps9_Hashable", "locationManager"]
+- ["Ps9_Hashable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9_Hashable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9_Hashable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9_Hashable", "locationServicesEnabled"]
+- ["Ps9_Hashable", "longvalue"]
+- ["Ps9_Hashable", "mobilefield"]
+- !private ["Ps9_Hashable", "performSegue"]
+- ["Ps9_Hashable", "placeMark"]
+- !private ["Ps9_Hashable", "postalCode"]
+- ["Ps9_Hashable", "prepare"]
+- !private ["Ps9_Hashable", "previewDict"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "requestAlwaysAuthorization"]
+- !private ["Ps9_Hashable", "reverseGeocodeLocation"]
+- ["Ps9_Hashable", "signupinfoDict"]
+- !private ["Ps9_Hashable", "startUpdatingLocation"]
+- ["Ps9_Hashable", "statefield"]
+- ["Ps9_Hashable", "streetfield"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "thoroughfare"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", "viewWillAppear"]
+- ["Ps9_Hashable", "zipcodefield"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "last"]
+- !private ["Ps21_ObjectiveCBridgeable", "latitude"]
+- !private ["Ps21_ObjectiveCBridgeable", "longitude"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "updateDict"]
+- !private ["Ps21_ObjectiveCBridgeable", "updateValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "C8HereYaGo18BaseViewController"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Vs18BidirectionalSlice"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "PSo19CAAnimationDelegate"
+- !private "PSo15CALayerDelegate"
+- "CSo10CLGeocoder"
+- "CSo10CLLocation"
+- "VSC22CLLocationCoordinate2D"
+- "CSo17CLLocationManager"
+- "PSo25CLLocationManagerDelegate"
+- !private "CSo11CLPlacemark"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs27DefaultBidirectionalIndices"
+- !private "Vs26DefaultRandomAccessIndices"
+- "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- "Sd"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs17RandomAccessSlice"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "Ps8Sequence"
+- "C8HereYaGo28SignUpViewControllerCategory"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "C8HereYaGo27SignupAddressViewController"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- "CSo17UIStoryboardSegue"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/dawn/Downloads/HereYaGo v2/HereYaGo/HereYaGo-Bridging-Header.h"
+- "/Users/dawn/Downloads/HereYaGo v2/HereYaGo/SWRevealViewController.h"
+- "/Users/dawn/Downloads/HereYaGo v1/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/dawn/Downloads/HereYaGo v2/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/dawn/Downloads/HereYaGo v2/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/dawn/Downloads/HereYaGo v2/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/Fabric/iOS/Fabric.framework/Headers/FABAttributes.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/Fabric/iOS/Fabric.framework/Headers/Fabric.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/Fabric/iOS/Fabric.framework/Modules/module.modulemap"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRSessionStore.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRSession.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRGuestSession.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRCoreOAuthSigning.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRConstants.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAuthSession.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAuthConfig.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRAPIErrorCode.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TWTRDefines.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterCore/iOS/TwitterCore.framework/Headers/TwitterCore.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterCore/iOS/TwitterCore.framework/Modules/module.modulemap"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRVideoMetaData.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRUserTimelineDataSource.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRUser.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetUserMentionEntity.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetUrlEntity.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetViewDelegate.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetView.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetTableViewCell.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetHashtagEntity.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetDetailViewController.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetEntity.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetCashtagEntity.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweet.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineViewController.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineFilter.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineDelegate.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineCursor.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRSearchTimelineDataSource.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTROAuthSigning.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRNotificationConstants.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMoPubNativeAdContainerView.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMoPubAdConfiguration.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRMediaEntitySize.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRLogInButton.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRListTimelineDataSource.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRJSONConvertible.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRComposerViewController.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRComposerTheme.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRComposer.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineType.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTimelineDataSource.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRCollectionTimelineDataSource.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRCardConfiguration.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRAPIClient.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/Twitter.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TwitterKit.h"
+- "/Users/dawn/Downloads/HereYaGo v2/Pods/TwitterKit/iOS/TwitterKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "f37d8ccfd6b3ed5faaab342c3d393bf3"
